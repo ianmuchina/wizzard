@@ -102,9 +102,9 @@ This rule does not apply to everything.
 visible world: (+ 3 3 )
 
 execution world: 
-	- Read # read the internal value of for expression
-	- Eval # evaluate the value of expression. It may be recursive
-	- Print #Ouptput result .Not necessary
+  - Read # read the internal value of for expression
+  - Eval # evaluate the value of expression. It may be recursive
+  - Print #Ouptput result .Not necessary
 
 visible world: 9       
 ```
@@ -113,9 +113,9 @@ visible world: 9
 visible world: 23
 
 execution world: 
-	- read
-	- eval #Self evaluating 23
-	- print # Output to screen
+  - read
+  - eval #Self evaluating 23
+  - print # Output to screen
 visible world: 23   
 ```
 
@@ -127,9 +127,9 @@ All our primitive expressions`+ * - / > <` are names. Variables made by define a
 visible world: pi
 
 execution world:
-	- read
-	- eval #Look up value (3.14)
-	- print
+  - read
+  - eval #Look up value (3.14)
+  - print
 visible world: 3.14
 ```
 
@@ -141,9 +141,9 @@ visible world: 3.14
 visible world: (define circumference (* 2 pi radius))
 
 execution world:
-	- read
-	- Eval #Only for the second expression (* 2 pi radius)
-	- associate first operrand to value #(* 2 pi radius))
+  - read
+  - Eval #Only for the second expression (* 2 pi radius)
+  - associate first operrand to value #(* 2 pi radius))
 
 visible world: # blank
 ```
