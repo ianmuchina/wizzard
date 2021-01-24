@@ -206,16 +206,11 @@ def square(x):
 
 ## 5. Evaluation steps
 
-The book introduces 2 different ways of evaluating expressions
-
-* Substitution model. Normal order evaluation
-* 
+The book introduces 2 different ways of evaluating expressions The one we will use is the Substitution model. 
 
 
 
 ## 6 . Conditionals
-
-
 
 Conditionals are another special procedure
 
@@ -235,7 +230,7 @@ The `cond` procedure are similar to ifs in some way .They have multiple predicat
 
 ```
 
-Predicate -  A procedure that returns true or false.
+**Predicate** -  A procedure that returns true or false.
 
 
 
