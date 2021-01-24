@@ -4,13 +4,11 @@ This chapter also starts philosophically.  The author says programmig languages 
 
 The author says we need three important elements: Simmilar to the quote in the previous chapter.
 
-1. **Expressions** - Simple things
-2. **Combinations** - Ways to make complex things from simple things
+1. **Expressions**  - Simple things
+2. **Combinations** - Ways to glue simple things into complex ones
 3. **Abstractions** - Ways to take complex things & make them simpler
 
 The "*things*" here  fall into two categories.  **Procedures** & **Data**. For this chapter we only have numerical data so that we can focus on procedures and the rules concerning them. 
-
-
 
 ## 1. Expressions
 
@@ -67,8 +65,6 @@ In scheme, we define functions and variables with the `define` keyword. It's a p
 (define radius 10)
 ```
 
-
-
 You can then do interesting stuff with define. eg: formulas.
 
 ```scheme
@@ -83,4 +79,71 @@ This is our first and simplest form of abstraction.
 
 To evaluate an expression in scheme, you evaluate the subexpressions, then apply the operators to the  arguments/operands. This rule is recursive. 
 
-Not everything works like this. eg: the define keyword is not a combination. 
+This rule does not apply to everything.
+
+**Self Evaluation** - Return the value
+
+**Names** - Return value associated with that name in environment 
+
+**Special Forms** - Do something special.
+
+**Combinations** 
+
+1. Evaluate all the subexpressions(recursive).
+2. Apply the operator to the to the operrands/arguments and return the result.
+
+
+
+## Read eval print loop
+
+### 1.  Combinations/expression
+
+```yaml
+visible world: (+ 3 3 )
+
+execution world: 
+	- Read # read the internal value of for expression
+	- Eval # evaluate the value of expression. It may be recursive
+	- Print #Ouptput result .Not necessary
+
+visible world: 9       
+```
+### 2.  Self Evaluation
+```yaml
+visible world: 23
+
+execution world: 
+	- read
+	- eval #Self evaluating 23
+	- print # Output to screen
+visible world: 23   
+```
+
+### 3. Names
+
+All our primitive expressions`+ * - / > <` are names. Variables made by define are also names. 
+
+```yaml
+visible world: pi
+
+execution world:
+	- read
+	- eval #Look up value (3.14)
+	- print
+visible world: 3.14
+```
+
+
+
+### 4. Special forms: define
+
+```yaml
+visible world: (define circumference (* 2 pi radius))
+
+execution world:
+	- read
+	- Eval #Only for the second expression (* 2 pi radius)
+	- associate first operrand to value #(* 2 pi radius))
+
+visible world: # blank
+```
