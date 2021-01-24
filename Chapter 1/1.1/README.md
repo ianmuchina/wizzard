@@ -1,8 +1,8 @@
 # The Elements of Programming
 
-This chapter also starts philosophically.  The author says programmig languages are yet another way to organize our thoughts and ideas of how to perform tasks. 
+This chapter also starts philosophically.  The author says programming languages are yet another way to organize our thoughts and ideas of how to perform tasks. 
 
-The author says we need three important elements: Simmilar to the quote in the previous chapter.
+The author says we need three important elements: Similar to the quote in the previous chapter.
 
 1. **Expressions**  - Simple things
 2. **Combinations** - Ways to glue simple things into complex ones
@@ -20,7 +20,7 @@ Expressions are the basic stuff. You write an expression, then evaluate it. Numb
 
 However, that's not really useful. You need to combine them with procedures like multiplying `*` adding `+` or dividing `\` . That's where things start to become interesting.
 
-In scheme the notation used to combine things is *prefix notation*.  WIth it, the operator eg:`*` is put to the left of the  operrands eg: `10`. Here's an example
+In scheme the notation used to combine things is *prefix notation*.  With it, the operator eg:`*` is put to the left of the  operands eg: `10`. Here's an example
 
 ```scheme
 ( + 1 1 )
@@ -56,6 +56,17 @@ You can pretty print the code but it's still ugly.
 
 
 
+Kinds of expressions:
+
+* Numbers
+* Symbols 
+* Combinations
+* Definitions - Special
+* conditionals  - Special forms
+* Lambda λ expressions (wut) ?? - Special
+
+
+
 ## 2. Naming and the Environment
 
 In scheme, we define functions and variables with the `define` keyword. It's a procedure like `* or +` and uses prefix notation. To define variables:
@@ -75,9 +86,58 @@ circumference
 
 This is our first and simplest form of abstraction.
 
-## 3. Evaluating Combinations
+## 3. Rules for Evaluating Combinations
 
-To evaluate an expression in scheme, you evaluate the subexpressions, then apply the operators to the  arguments/operands. This rule is recursive. 
+To evaluate an expression in scheme, you 
+
+1. Evaluate the subexpressions, then 
+2. Apply the operators to the  arguments/operands. This rule is recursive. 
+
+#### Substitution rule
+
+```yaml
+evaluate:
+  operator:  # get procedure
+  operrands: # get arguments
+  
+apply: #procedure to arguments
+  # How?
+  copy:  #body of procedure:
+  	substitute:  #params with arguments
+  evaluate: #This is where the recursion comes
+```
+
+Example:
+```scheme
+; Defintions
+(define (square x) (* x x))
+
+(define (sum-of-squares x y)
+  (+ (square x) (square y)))
+
+;Usage
+(sum-of-squares 3 4)
+
+;  Evaluate
+(sum-of-squares 3 4)
+
+;; 1. Copy The body
+(+ (square x) (square y))
+
+;; 2. Substitute the elements
+(+ (square 3) (square 4))
+
+;; 3. Evaluate (recursive)
+  ;; 1.Copy The body
+  (* x x) (* x x)
+
+  ;; 2.Substitute the elements
+  (+ (* 3 3) (* 4 4))
+  ;; 3.Evaluate (recursive)
+      (+ (* 3 3) (* 4 4))
+      (+ 9 16)
+      25; Answer
+```
 
 This rule does not apply to everything.
 
@@ -90,7 +150,92 @@ This rule does not apply to everything.
 **Combinations** 
 
 1. Evaluate all the subexpressions(recursive).
-2. Apply the operator to the to the operrands/arguments and return the result.
+2. Apply the operator to the to the operands/arguments and return the result.
+
+
+
+
+
+
+## 4. Compound Procedures
+
+#### Recap
+
+There are some important building blocks that a language needs. In lisp we have these so far:
+
+* Numbers and math operators like `+`. They are formally called data & procedures. The authors say they aren't  so different. 
+* A means of combining them. In lisp we use brackets `()`
+* Variables to bind names with values. They allow us to abstract away complexity.
+
+
+
+###  Procedure definitions
+
+They are called *functions* in modern languages. In LISP, they are created with the `define` Keyword. It's interesting that variables and functions are made with the same keyword. They allow us to treat compound operations as one single unit.
+
+The first example given is squaring numbers. To do so, multiply a number by itself. This is written in lisp like this.
+
+```scheme
+(define (square x) 
+  		(* x x))
+```
+
+The formal syntax is as follows:
+
+```scheme
+(define ((name) (parameters)) 
+  		(body))
+```
+* name: What the function will be called in the environment.
+* parameters: the names we will use to refer to the arguments inside the body.
+*  body: the complex magic you want to simplify.
+
+It's a bit similar to other languages, just with funky syntax
+
+```javascript
+function square(x) {
+    return (x * x)
+}
+```
+```python
+def square(x):
+    return x * x
+```
+
+
+
+## 5. Evaluation steps
+
+The book introduces 2 different ways of evaluating expressions
+
+* Substitution model. Normal order evaluation
+* 
+
+
+
+## 6 . Conditionals
+
+
+
+Conditionals are another special procedure
+
+Syntax if the `if` procedure
+
+```scheme
+(if (predicate) (consequent) (alternative)
+```
+
+predicate can be simple `<` , `=` , `>`. It can also have logical operators like `or` `not` & `and`. These are special procedures. 
+
+The `cond` procedure are similar to ifs in some way .They have multiple predicates and no alternative. 
+
+```scheme
+(cond ((p1) (e1)
+      ((p2) (e2))
+
+```
+
+Predicate -  A procedure that returns true or false.
 
 
 
@@ -108,7 +253,9 @@ execution world:
 
 visible world: 9       
 ```
+
 ### 2.  Self Evaluation
+
 ```yaml
 visible world: 23
 
@@ -121,7 +268,7 @@ visible world: 23
 
 ### 3. Names
 
-All our primitive expressions`+ * - / > <` are names. Variables made by define are also names. 
+All our primitive expressions`+ * - / > <` are names. Variables made by `define` are also names. Define itself is not a name.
 
 ```yaml
 visible world: pi
@@ -134,12 +281,12 @@ visible world: 3.14
 ```
 
 
+### 4. Special forms: `define`
 
-### 4. Special forms: define
+`define` is the first special form we have encountered.
 
 ```yaml
 visible world: (define circumference (* 2 pi radius))
-
 execution world:
   - read
   - Eval #Only for the second expression (* 2 pi radius)
@@ -147,3 +294,4 @@ execution world:
 
 visible world: # blank
 ```
+
