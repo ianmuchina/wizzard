@@ -95,6 +95,11 @@ To evaluate an expression in scheme, you
 
 #### Substitution rule
 
+To Evaluate a Combination, these are the steps.
+
+1. Evaluate all the subexpressions(recursive).
+2. Apply the operator to the to the operands/arguments and return the result.
+
 ```yaml
 evaluate:
   operator:  # get procedure
@@ -109,7 +114,7 @@ apply: #procedure to arguments
 
 Example:
 ```scheme
-; Defintions
+; Defintions: Special form that return #procedures
 (define (square x) (* x x))
 
 (define (sum-of-squares x y)
@@ -145,12 +150,7 @@ This rule does not apply to everything.
 
 **Names** - Return value associated with that name in environment 
 
-**Special Forms** - Do something special.
-
-**Combinations** 
-
-1. Evaluate all the subexpressions(recursive).
-2. Apply the operator to the to the operands/arguments and return the result.
+**Special Forms** - Do something special. eg: definitions and conditionals.
 
 
 
@@ -207,7 +207,6 @@ def square(x):
 ## 5. Evaluation steps
 
 The book introduces 2 different ways of evaluating expressions The one we will use is the Substitution model. 
-
 
 
 ## 6 . Conditionals
