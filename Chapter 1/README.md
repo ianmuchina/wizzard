@@ -38,7 +38,7 @@ I found the best racket package, called [sicp](https://docs.racket-lang.org/sicp
 To install it:
 
 ```
-raco install sicp
+raco pkg install sicp
 ```
 To use it, add this line at the start of every program.
 ```racket
