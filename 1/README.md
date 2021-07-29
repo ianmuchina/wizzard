@@ -1,7 +1,5 @@
 # 1. Building Abstractions with Procedures
 
-## Notes
-
 Quote from 1690 about abstraction:
 
 >  We humans do 3 with ideas:
@@ -29,20 +27,10 @@ The language used in the book is `LISP` . The name Is an acronym for LISt Proces
 
 It's not a mainstream language. However the authors say it's the best language to teach sicp. They gave some reasons but I don't  quite get it yet. You can write compilers & interpreters in LISP so this should be fun. 
 
-## Setup
+---
 
-I'm on debian so I did an `apt install racket` to get the racket interpreter. For my editor I used `vscode` with the [Magic Racket](https://marketplace.visualstudio.com/items?itemName=evzen-wybitul.magic-racket)  extension & the [bracket pair colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) extension.
+## Quotes
 
-I found the best racket package, called [sicp](https://docs.racket-lang.org/sicp-manual/SICP_Language.html) for studying  this book. 
+The key to understanding complicated things is to know what not to look at, what not to compute and what not to think. [Lecture 1B](https://youtu.be/V_7mmwpgJHU?t=597)
 
-To install it:
-
-```
-raco pkg install sicp
-```
-To use it, add this line at the start of every program.
-```racket
-#lang sicp
-```
-
-Next  [1.1The Elements of Programming](./1.1/README.md)
+Programs must be written for people to read, and only incidentally for machines to execute.

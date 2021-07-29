@@ -1,10 +1,12 @@
-; Exercise 1.3: 
 #lang sicp
-;Define a procedure that takes 
-;   three numbers as arguments ....
-;   returns the sum of the squares of the two larger numbers. 
-
-; square of x
+; Exercise 1.3: 
+; Question
+;
+; Define a procedure that takes 
+;   three numbers as arguments,
+;   then returns the sum of the squares of the two larger numbers. 
+;
+; Answer
 (define (square x)
         (* x x))
 
@@ -13,7 +15,7 @@
         ( + (square x) 
             (square y)))
 
-; The main fnction
+; main fnction
 (define (fn a b c) 
     ;Body
     (cond

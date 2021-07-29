@@ -1,3 +1,4 @@
+#lang sicp
 ;Definitions
 (define (p) (p))
 
