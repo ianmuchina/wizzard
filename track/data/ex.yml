@@ -1,0 +1,790 @@
+- title: Building Abstractions with Procedures
+  sections:  
+    - title: The Elements of Programming
+      excercises:
+        - name: ex-1_01
+          done: false
+        - name: ex-1_02
+          done: false
+        - name: ex-1_03
+          done: false
+        - name: ex-1_04
+          done: false
+        - name: ex-1_05
+          done: false
+        - name: ex-1_06
+          done: false
+        - name: ex-1_07
+          done: false
+        - name: ex-1_08
+          done: false
+
+    - title: Procedures and the Processes They Generate
+      excercises:
+        - name: ex-1_09
+          done: false
+        - name: ex-1_10
+          done: false
+        - name: ex-1_11
+          done: false
+        - name: ex-1_12
+          done: false
+        - name: ex-1_13
+          done: false
+        - name: ex-1_14
+          done: false
+        - name: ex-1_15
+          done: false
+        - name: ex-1_16
+          done: false
+        - name: ex-1_17
+          done: false
+        - name: ex-1_18
+          done: false
+        - name: ex-1_19
+          done: false
+        - name: ex-1_20
+          done: false
+        - name: ex-1_21
+          done: false
+        - name: ex-1_22
+          done: false
+        - name: ex-1_23
+          done: false
+        - name: ex-1_24
+          done: false
+        - name: ex-1_25
+          done: false
+        - name: ex-1_26
+          done: false
+        - name: ex-1_27
+          done: false
+        - name: ex-1_28
+          done: false
+
+    - title: Formulating Abstractions with Higher Order Procedures
+      excercises:
+        - name: ex-1_29
+          done: false
+        - name: ex-1_30
+          done: false
+        - name: ex-1_31
+          done: false
+        - name: ex-1_32
+          done: false
+        - name: ex-1_33
+          done: false
+        - name: ex-1_34
+          done: false
+        - name: ex-1_35
+          done: false
+        - name: ex-1_36
+          done: false
+        - name: ex-1_37
+          done: false
+        - name: ex-1_38
+          done: false
+        - name: ex-1_39
+          done: false
+        - name: ex-1_40
+          done: false
+        - name: ex-1_41
+          done: false
+        - name: ex-1_42
+          done: false
+        - name: ex-1_43
+          done: false
+        - name: ex-1_44
+          done: false
+        - name: ex-1_45
+          done: false
+        - name: ex-1_46
+          done: false
+
+- title: Building Abstractions with Data
+  sections:
+
+    - title: Introduction to Data Abstraction
+      excercises:
+        - name: ex-2_01
+          done: false
+        - name: ex-2_02
+          done: false
+        - name: ex-2_03
+          done: false
+        - name: ex-2_04
+          done: false
+        - name: ex-2_05
+          done: false
+        - name: ex-2_06
+          done: false
+        - name: ex-2_07
+          done: false
+        - name: ex-2_08
+          done: false
+        - name: ex-2_09
+          done: false
+        - name: ex-2_10
+          done: false
+        - name: ex-2_11
+          done: false
+        - name: ex-2_12
+          done: false
+        - name: ex-2_13
+          done: false
+        - name: ex-2_14
+          done: false
+        - name: ex-2_15
+          done: false
+        - name: ex-2_16
+          done: false
+
+    - title: Hierarchical Data and the Closure Property
+      excercises:
+        - name: ex-2_17
+          done: false
+        - name: ex-2_18
+          done: false
+        - name: ex-2_19
+          done: false
+        - name: ex-2_20
+          done: false
+        - name: ex-2_21
+          done: false
+        - name: ex-2_22
+          done: false
+        - name: ex-2_23
+          done: false
+        - name: ex-2_24
+          done: false
+        - name: ex-2_25
+          done: false
+        - name: ex-2_26
+          done: false
+        - name: ex-2_27
+          done: false
+        - name: ex-2_28
+          done: false
+        - name: ex-2_29
+          done: false
+        - name: ex-2_30
+          done: false
+        - name: ex-2_31
+          done: false
+        - name: ex-2_32
+          done: false
+        - name: ex-2_33
+          done: false
+        - name: ex-2_34
+          done: false
+        - name: ex-2_35
+          done: false
+        - name: ex-2_36
+          done: false
+        - name: ex-2_37
+          done: false
+        - name: ex-2_38
+          done: false
+        - name: ex-2_39
+          done: false
+        - name: ex-2_40
+          done: false
+        - name: ex-2_41
+          done: false
+        - name: ex-2_42
+          done: false
+        - name: ex-2_43
+          done: false
+        - name: ex-2_44
+          done: false
+        - name: ex-2_45
+          done: false
+        - name: ex-2_46
+          done: false
+        - name: ex-2_47
+          done: false
+        - name: ex-2_48
+          done: false
+        - name: ex-2_49
+          done: false
+        - name: ex-2_50
+          done: false
+        - name: ex-2_51
+          done: false
+        - name: ex-2_52
+          done: false
+
+    - title: Symbolic Data
+      excercises:
+        - name: ex-2_53
+          done: false
+        - name: ex-2_54
+          done: false
+        - name: ex-2_55
+          done: false
+        - name: ex-2_56
+          done: false
+        - name: ex-2_57
+          done: false
+        - name: ex-2_58
+          done: false
+        - name: ex-2_59
+          done: false
+        - name: ex-2_60
+          done: false
+        - name: ex-2_61
+          done: false
+        - name: ex-2_62
+          done: false
+        - name: ex-2_63
+          done: false
+        - name: ex-2_64
+          done: false
+        - name: ex-2_65
+          done: false
+        - name: ex-2_66
+          done: false
+        - name: ex-2_67
+          done: false
+        - name: ex-2_68
+          done: false
+        - name: ex-2_69
+          done: false
+        - name: ex-2_70
+          done: false
+        - name: ex-2_71
+          done: false
+        - name: ex-2_72
+          done: false
+
+    - title: Multiple Representations for Abstract Data
+      excercises:
+        - name: ex-2_73
+          done: false
+        - name: ex-2_74
+          done: false
+        - name: ex-2_75
+          done: false
+        - name: ex-2_76
+          done: false
+
+    - title: Systems with Generic Operations
+      excercises:
+        - name: ex-2_77
+          done: false
+        - name: ex-2_78
+          done: false
+        - name: ex-2_79
+          done: false
+        - name: ex-2_80
+          done: false
+        - name: ex-2_81
+          done: false
+        - name: ex-2_82
+          done: false
+        - name: ex-2_83
+          done: false
+        - name: ex-2_84
+          done: false
+        - name: ex-2_85
+          done: false
+        - name: ex-2_86
+          done: false
+        - name: ex-2_87
+          done: false
+        - name: ex-2_88
+          done: false
+        - name: ex-2_89
+          done: false
+        - name: ex-2_90
+          done: false
+        - name: ex-2_91
+          done: false
+        - name: ex-2_92
+          done: false
+        - name: ex-2_93
+          done: false
+        - name: ex-2_94
+          done: false
+        - name: ex-2_95
+          done: false
+        - name: ex-2_96
+          done: false
+        - name: ex-2_97
+          done: false
+
+- title: Modeling with Mutable Data
+  sections:
+    - title: Assignment and Local State
+      excercises:
+        - name: ex-3_01
+          done: false
+        - name: ex-3_02
+          done: false
+        - name: ex-3_03
+          done: false
+        - name: ex-3_04
+          done: false
+        - name: ex-3_05
+          done: false
+        - name: ex-3_06
+          done: false
+        - name: ex-3_07
+          done: false
+        - name: ex-3_08
+          done: false
+        - name: ex-3_09
+          done: false
+
+    - title: The Environment Model of Evaluation
+      excercises:
+        - name: ex-3_10
+          done: false
+        - name: ex-3_11
+          done: false
+
+    - title: Modeling with Mutable Data
+      excercises:
+        - name: ex-3_12
+          done: false
+        - name: ex-3_13
+          done: false
+        - name: ex-3_14
+          done: false
+        - name: ex-3_15
+          done: false
+        - name: ex-3_16
+          done: false
+        - name: ex-3_17
+          done: false
+        - name: ex-3_18
+          done: false
+        - name: ex-3_19
+          done: false
+        - name: ex-3_20
+          done: false
+        - name: ex-3_21
+          done: false
+        - name: ex-3_22
+          done: false
+        - name: ex-3_23
+          done: false
+        - name: ex-3_24
+          done: false
+        - name: ex-3_25
+          done: false
+        - name: ex-3_26
+          done: false
+        - name: ex-3_27
+          done: false
+        - name: ex-3_28
+          done: false
+        - name: ex-3_29
+          done: false
+        - name: ex-3_30
+          done: false
+        - name: ex-3_31
+          done: false
+        - name: ex-3_32
+          done: false
+        - name: ex-3_33
+          done: false
+        - name: ex-3_34
+          done: false
+        - name: ex-3_35
+          done: false
+        - name: ex-3_36
+          done: false
+        - name: ex-3_37
+          done: false
+
+    - title: "Concurrency: Time Is of the Essence"
+      excercises:
+        - name: ex-3_38
+          done: false
+        - name: ex-3_39
+          done: false
+        - name: ex-3_40
+          done: false
+        - name: ex-3_41
+          done: false
+        - name: ex-3_42
+          done: false
+        - name: ex-3_43
+          done: false
+        - name: ex-3_44
+          done: false
+        - name: ex-3_45
+          done: false
+        - name: ex-3_46
+          done: false
+        - name: ex-3_47
+          done: false
+        - name: ex-3_48
+          done: false
+        - name: ex-3_49
+          done: false
+
+    - title: Streams
+      excercises:
+        - name: ex-3_50
+          done: false
+        - name: ex-3_51
+          done: false
+        - name: ex-3_52
+          done: false
+        - name: ex-3_53
+          done: false
+        - name: ex-3_54
+          done: false
+        - name: ex-3_55
+          done: false
+        - name: ex-3_56
+          done: false
+        - name: ex-3_57
+          done: false
+        - name: ex-3_58
+          done: false
+        - name: ex-3_59
+          done: false
+        - name: ex-3_60
+          done: false
+        - name: ex-3_61
+          done: false
+        - name: ex-3_62
+          done: false
+        - name: ex-3_63
+          done: false
+        - name: ex-3_64
+          done: false
+        - name: ex-3_65
+          done: false
+        - name: ex-3_66
+          done: false
+        - name: ex-3_67
+          done: false
+        - name: ex-3_68
+          done: false
+        - name: ex-3_69
+          done: false
+        - name: ex-3_70
+          done: false
+        - name: ex-3_71
+          done: false
+        - name: ex-3_72
+          done: false
+        - name: ex-3_73
+          done: false
+        - name: ex-3_74
+          done: false
+        - name: ex-3_75
+          done: false
+        - name: ex-3_76
+          done: false
+        - name: ex-3_77
+          done: false
+        - name: ex-3_78
+          done: false
+        - name: ex-3_79
+          done: false
+        - name: ex-3_80
+          done: false
+        - name: ex-3_81
+          done: false
+        - name: ex-3_82
+          done: false
+
+- title: Metalinguistic Abstraction
+  sections:
+
+    - title: The Metacircular Evaluator
+      excercises:
+        - name: ex-4_01
+          done: false
+        - name: ex-4_02
+          done: false
+        - name: ex-4_03
+          done: false
+        - name: ex-4_04
+          done: false
+        - name: ex-4_05
+          done: false
+        - name: ex-4_06
+          done: false
+        - name: ex-4_07
+          done: false
+        - name: ex-4_08
+          done: false
+        - name: ex-4_09
+          done: false
+        - name: ex-4_10
+          done: false
+        - name: ex-4_11
+          done: false
+        - name: ex-4_12
+          done: false
+        - name: ex-4_13
+          done: false
+        - name: ex-4_14
+          done: false
+        - name: ex-4_15
+          done: false
+        - name: ex-4_16
+          done: false
+        - name: ex-4_17
+          done: false
+        - name: ex-4_18
+          done: false
+        - name: ex-4_19
+          done: false
+        - name: ex-4_20
+          done: false
+        - name: ex-4_21
+          done: false
+        - name: ex-4_22
+          done: false
+        - name: ex-4_23
+          done: false
+        - name: ex-4_24
+          done: false
+
+    - title: Variations on a Scheme :Lazy Evaluation
+      excercises:
+        - name: ex-4_25
+          done: false
+        - name: ex-4_26
+          done: false
+        - name: ex-4_27
+          done: false
+        - name: ex-4_28
+          done: false
+        - name: ex-4_29
+          done: false
+        - name: ex-4_30
+          done: false
+        - name: ex-4_31
+          done: false
+        - name: ex-4_32
+          done: false
+        - name: ex-4_33
+          done: false
+        - name: ex-4_34
+          done: false
+
+    - title: Variations on a Scheme Nondeterministic Computing
+      excercises:
+        - name: ex-4_35
+          done: false
+        - name: ex-4_36
+          done: false
+        - name: ex-4_37
+          done: false
+        - name: ex-4_38
+          done: false
+        - name: ex-4_39
+          done: false
+        - name: ex-4_40
+          done: false
+        - name: ex-4_41
+          done: false
+        - name: ex-4_42
+          done: false
+        - name: ex-4_43
+          done: false
+        - name: ex-4_44
+          done: false
+        - name: ex-4_45
+          done: false
+        - name: ex-4_46
+          done: false
+        - name: ex-4_47
+          done: false
+        - name: ex-4_48
+          done: false
+        - name: ex-4_49
+          done: false
+        - name: ex-4_50
+          done: false
+        - name: ex-4_51
+          done: false
+        - name: ex-4_52
+          done: false
+        - name: ex-4_53
+          done: false
+        - name: ex-4_54
+          done: false
+
+    - title: Logic Programming
+      excercises:
+        - name: ex-4_55
+          done: false
+        - name: ex-4_56
+          done: false
+        - name: ex-4_57
+          done: false
+        - name: ex-4_58
+          done: false
+        - name: ex-4_59
+          done: false
+        - name: ex-4_60
+          done: false
+        - name: ex-4_61
+          done: false
+        - name: ex-4_62
+          done: false
+        - name: ex-4_63
+          done: false
+        - name: ex-4_64
+          done: false
+        - name: ex-4_65
+          done: false
+        - name: ex-4_66
+          done: false
+        - name: ex-4_67
+          done: false
+        - name: ex-4_68
+          done: false
+        - name: ex-4_69
+          done: false
+        - name: ex-4_70
+          done: false
+        - name: ex-4_71
+          done: false
+        - name: ex-4_72
+          done: false
+        - name: ex-4_73
+          done: false
+        - name: ex-4_74
+          done: false
+        - name: ex-4_75
+          done: false
+        - name: ex-4_76
+          done: false
+        - name: ex-4_77
+          done: false
+        - name: ex-4_78
+          done: false
+        - name: ex-4_79
+          done: false
+
+- title: Computing with Register Machines
+  sections:
+
+    - title: Designing Register Machines
+      excercises:
+        - name: ex-5_01
+          done: false
+        - name: ex-5_02
+          done: false
+        - name: ex-5_03
+          done: false
+        - name: ex-5_04
+          done: false
+        - name: ex-5_05
+          done: false
+        - name: ex-5_06
+          done: false
+
+    - title: A Register Machine Simulator
+      excercises:
+        - name: ex-5_07
+          done: false
+        - name: ex-5_08
+          done: false
+        - name: ex-5_09
+          done: false
+        - name: ex-5_10
+          done: false
+        - name: ex-5_11
+          done: false
+        - name: ex-5_12
+          done: false
+        - name: ex-5_13
+          done: false
+        - name: ex-5_14
+          done: false
+        - name: ex-5_15
+          done: false
+        - name: ex-5_16
+          done: false
+        - name: ex-5_17
+          done: false
+        - name: ex-5_18
+          done: false
+        - name: ex-5_19
+          done: false
+
+    - title: Storage Allocation and Garbage Collection
+      excercises:
+        - name: ex-5_20
+          done: false
+        - name: ex-5_21
+          done: false
+        - name: ex-5_22
+          done: false
+
+    - title: The Explicit-Control Evaluator
+      excercises:
+        - name: ex-5_23
+          done: false
+        - name: ex-5_24
+          done: false
+        - name: ex-5_25
+          done: false
+        - name: ex-5_26
+          done: false
+        - name: ex-5_27
+          done: false
+        - name: ex-5_28
+          done: false
+        - name: ex-5_29
+          done: false
+        - name: ex-5_30
+          done: false
+
+    - title: Compilation
+      excercises:
+        - name: ex-5_31
+          done: false
+        - name: ex-5_32
+          done: false
+        - name: ex-5_33
+          done: false
+        - name: ex-5_34
+          done: false
+        - name: ex-5_35
+          done: false
+        - name: ex-5_36
+          done: false
+        - name: ex-5_37
+          done: false
+        - name: ex-5_38
+          done: false
+        - name: ex-5_39
+          done: false
+        - name: ex-5_40
+          done: false
+        - name: ex-5_41
+          done: false
+        - name: ex-5_42
+          done: false
+        - name: ex-5_43
+          done: false
+        - name: ex-5_44
+          done: false
+        - name: ex-5_45
+          done: false
+        - name: ex-5_46
+          done: false
+        - name: ex-5_47
+          done: false
+        - name: ex-5_48
+          done: false
+        - name: ex-5_49
+          done: false
+        - name: ex-5_50
+          done: false
+        - name: ex-5_51
+          done: false
+        - name: ex-5_52
+          done: false
