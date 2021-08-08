@@ -3,28 +3,28 @@
     - title: The Elements of Programming
       excercises:
         - name: ex-1_01
-          done: false
+          done: true
         - name: ex-1_02
-          done: false
+          done: true
         - name: ex-1_03
-          done: false
+          done: true
         - name: ex-1_04
-          done: false
+          done: true
         - name: ex-1_05
-          done: false
+          done: true
         - name: ex-1_06
-          done: false
+          done: true
         - name: ex-1_07
-          done: false
+          done: true
         - name: ex-1_08
-          done: false
+          done: true
 
     - title: Procedures and the Processes They Generate
       excercises:
         - name: ex-1_09
-          done: false
+          done: true
         - name: ex-1_10
-          done: false
+          done: true
         - name: ex-1_11
           done: false
         - name: ex-1_12
