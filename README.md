@@ -8,6 +8,10 @@ The plan is to:
 2. Watch all the lectures
 3. Do 80% of exercises
 
+## Progress
+
+[ianmuchina.github.io/wizzard/](https://ianmuchina.github.io/wizzard/)
+
 
 ## Book
 
@@ -29,10 +33,6 @@ The plan is to:
 - [http://community.schemewiki.org/?SICP-Solutions](http://community.schemewiki.org/?SICP-Solutions)
 - [https://codology.net/](https://codology.net/)
 - [Eli Bendersky's website](https://eli.thegreenplace.net/tag/sicp)
-
-## Progress
-
-[ianmuchina.github.io/wizzard/](https://ianmuchina.github.io/wizzard/)
 
 ## Setup
 
